@@ -1,0 +1,102 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <style>
+      body {
+        font-size: 1.5em;
+      }
+      .container {
+        margin: 40px;
+        margin-top: 60px;
+      }
+      button {
+        width: 200px;
+        background: #eee;
+        padding: 10px;
+        margin: 20px auto;
+        border: none;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- tooltip-->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+        repudiandae quas ipsam veniam officiis
+        <span class="tooltip" data-message="i'm tooltip!">skilo gritosut</span>
+        similique asperiores tenetur provident.
+      </p>
+      <h2>Services</h2>
+      <div class="dropdown">
+        <div class="trigger">Awesome T-shirt design</div>
+        <div class="content">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ea
+            dolores porro dolorum, incidunt aliquid aperiam aliquam eius
+            blanditiis id. Officia fugit nesciunt ex sapiente, numquam enim
+            aspernatur odit perferendis?
+          </p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="trigger">Cool Sticker printing</div>
+        <div class="content">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ea
+            dolores porro dolorum, incidunt aliquid aperiam aliquam eius
+            blanditiis id. Officia fugit nesciunt ex sapiente, numquam enim
+            aspernatur odit perferendis?
+          </p>
+        </div>
+      </div>
+      <h2>More information</h2>
+      <div class="tabs">
+        <ul>
+          <li class="trigger active" data-target="#about">About</li>
+          <li class="trigger" data-target="#delivery">Delivery info</li>
+          <li class="trigger" data-target="#returns">Returns info</li>
+        </ul>
+        <div id="about" class="content active">
+          <h3>about</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
+            illo facilis autem, assumenda impedit rem unde? Numquam fugit,
+            provident neque veritatis voluptates deserunt tempora at, sequi,
+            officia natus eius. Laborum.
+          </p>
+        </div>
+        <div id="delivery" class="content">
+          <h3>delivery</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+            laboriosam molestiae temporibus iste corporis error hic quam eveniet
+            sed aperiam ipsa esse, debitis quod minus officia nemo, facilis
+            ullam quis!
+          </p>
+        </div>
+        <div id="returns" class="content">
+          <h3>returns</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vel
+            minima temporibus aspernatur necessitatibus, animi commodi
+            consequatur nemo quam. Libero temporibus quis fuga sint quaerat
+            aliquam recusandae optio asperiores dolorem?
+          </p>
+        </div>
+      </div>
+      <div>
+        <button class="snackbar-trigger">click me</button>
+      </div>
+    </div>
+
+    <script src="assets/bundle.js"></script>
+  </body>
+</html>
